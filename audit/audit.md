@@ -52,5 +52,23 @@ Does Botium Toys currently adhere to this compliance best practice?
 |     | x  |Data is available to individuals authorized to access it.|
 
 This section is optional and can be used to provide a summary of recommendations to the IT manager regarding which controls and/or compliance best practices Botium Toys needs to implement, based on the risk posed if not implemented in a timely manner.
-Recommendations (optional): In this section, provide recommendations, related to controls and/or compliance needs, that your IT manager could communicate to stakeholders to reduce risks to assets and improve Botium Toys’ security posture.
+### Recommendations: 
+In this section, provide recommendations, related to controls and/or compliance needs, that your IT manager could communicate to stakeholders to reduce risks to assets and improve Botium Toys’ security posture.
 Recommendations for controls to be implemented:
+
+### Administrative/Managerial Controls
+| Control Name                                       | Compilance              | Asset                                                                                     |Example implementation|
+|----------------------------------------------------|-------------------------|-------------------------------------------------------------------------------------------|-|
+|Least Privilege <br> Access control policies <br> Separation of duties | SOC type 1, SOC type 2 <br> Data is available to individuals authorized to access it. <br> User access policies are established. <br> Sensitive data (PII/SPII) is confidential/private. <br> PCI DSS <br> Only authorized users have access to customers’ credit card information. | Management of systems, software, and services                                             ||
+|Disaster recovery plans                                                    |                         | Business continuity                                                                                          ||
+|Update password policies|                         | end-user devices (desktop/laptop, smartphones) – operating system, software, and services ||
+|Account management policies                                                    |                         | software, and services, internal network                                                  ||
+
+### Technical Controls
+| Control Name                                       | Compilance                                                                                                       | Asset                                                                                     |Example implementation|
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-|
+|IDS/IPS|                                                                                                                  |Internal network|
+|Encryption| PCI DSS <br> Implement data encryption procedures to better secure credit card transaction touchpoints and data. |Internal network|
+|Backups|                                                                                                                  |Data retention and storage|
+|Password management|                                                                                                                  |Software, and services|
+|Intervention for legacy systems|                                                                                                                  |Legacy systems|
